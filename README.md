@@ -6,7 +6,7 @@ A user can make plans with tasks and save them locally to his computer.
 
 The app will be continuously updated.
 
-<a href="https://github.com/xk2102/rhoam-tasks">Web version</a>
+<a href="https://github.com/xk2102/rhoam-tasks" target="_blank">Web version</a>
 
 <img src="pics/1.jpg" />
 <img src="pics/2.jpg" />
