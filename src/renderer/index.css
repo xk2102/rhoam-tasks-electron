@@ -1,0 +1,119 @@
+@font-face {
+  font-family: Quicksand-Bold;
+  src: url('../renderer/fonts/Quicksand-Bold.ttf');
+}
+@font-face {
+  font-family: Quicksand-Light;
+  src: url('../renderer/fonts/Quicksand-Light.ttf');
+}
+@font-face {
+  font-family: Quicksand-Medium;
+  src: url('../renderer/fonts/Quicksand-Medium.ttf');
+}
+@font-face {
+  font-family: Quicksand-Regular;
+  src: url('../renderer/fonts/Quicksand-Regular.ttf');
+}
+@font-face {
+  font-family: Quicksand-SemiBold;
+  src: url('../renderer/fonts/Quicksand-SemiBold.ttf');
+}
+
+:root {
+  --colorGrey: #bdbcbc;
+  --colorGreyFocus: rgb(227, 243, 239);
+  --colorRed: #ff6c64;
+  --colorRedFocus: #f59893;
+  --colorBlue: #51afef;
+  --colorGreen: #80aa61;
+  --colorPurple: #b48bee;
+  --colorBrown1: #7a5b52;
+  --colorBrown2: #6b4f47;
+  --colorBrown3: #5c443d;
+}
+
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: Quicksand-Semibold;
+  background-color: #000000;
+  color: #bdbcbc;
+  overflow: hidden; /* Hide scrollbars */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ----------- */
+/* -img ----- */
+/* ----------- */
+#img-container {
+  text-align: center;
+}
+
+#img-container img {
+  border-radius: 10px;
+  width: 90%;
+}
+
+@media (min-width: 600px) {
+  html,
+  body {
+    font-size: 13pt;
+  }
+}
+@media (min-width: 900px) {
+  html,
+  body {
+    font-size: 14pt;
+  }
+}
+/* larger than HD */
+@media (min-width: 1200px) {
+  html,
+  body {
+    font-size: 15pt;
+  }
+}
+/* larger than FHD */
+@media (min-width: 1900px) {
+  html,
+  body {
+    font-size: 18pt;
+  }
+}
+/* larger than QHD */
+@media (min-width: 2500px) {
+  html,
+  body {
+    font-size: 26pt;
+  }
+}
+/* larger than 4K */
+@media (min-width: 3800px) {
+  html,
+  body {
+    font-size: 34pt;
+  }
+}
+
+.animate {
+  animation-duration: 0.15s;
+  animation-name: animate-fade;
+  animation-delay: 0.15s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes animate-fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

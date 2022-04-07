@@ -1,0 +1,21 @@
+.BoxRight {
+  /* DISPLAY */
+  flex: 3;
+  /* MARGIN, PADDING */
+  padding: 20px;
+  overflow-y: scroll;
+}
+
+.BoxRightEmpty {
+  /* DISPLAY */
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  /* MARGIN, PADDING */
+  padding: 20px;
+  /* DISPLAY */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

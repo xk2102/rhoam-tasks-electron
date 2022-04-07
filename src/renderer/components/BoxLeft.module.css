@@ -1,0 +1,106 @@
+/* BORDER */
+/* COLORS */
+/* DISPLAY */
+/* MARGIN, PADDING */
+/* FONTS */
+
+.BoxLeft {
+  /* BORDER */
+  /* border: 2px solid; */
+  border-radius: 5px;
+  /* COLORS */
+  background-color: #15151b;
+  /* DISPLAY */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* MARGIN, PADDING */
+  padding: 20px;
+}
+
+/* ------------------ */
+/* ----CATEGORY------------- */
+/* ------------------ */
+
+.category {
+  /* BORDER */
+  /* border: 2px solid; */
+  /* DISPLAY */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* MARGIN, PADDING */
+  padding: 5px;
+}
+.category > .image {
+  /* BORDER */
+  /* border: 2px solid; */
+  /* DISPLAY */
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* MARGIN, PADDING */
+  /* margin-left: 10px; */
+}
+.category > .label {
+  /* BORDER */
+  /* border: 2px solid; */
+  /* DISPLAY */
+  flex: 4;
+}
+
+/* ------------------ */
+/* ----PLAN------------- */
+/* ------------------ */
+
+.plan {
+  /* BORDER */
+  /* border: 2px solid; */
+  border-radius: 5px;
+  /* DISPLAY */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* MARGIN, PADDING */
+  padding: 5px;
+  /* OTHER */
+  cursor: pointer;
+}
+.plan > .image {
+  /* BORDER */
+  /* border: 2px solid; */
+  /* DISPLAY */
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* MARGIN, PADDING */
+  margin-left: 15px;
+}
+.plan > .image > .color {
+  /* SIZE */
+  height: 15px;
+  width: 15px;
+  /* BORDER */
+  /* border: 2px solid; */
+  border-radius: 15px;
+}
+.plan > .label {
+  /* BORDER */
+  /* border: 2px solid; */
+  /* DISPLAY */
+  flex: 4;
+}
+
+.plan:hover {
+  /* COLORS */
+  background-color: #1d2836;
+}
+
+/* ------------------ */
+/* ----BUTTONS------------- */
+/* ------------------ */

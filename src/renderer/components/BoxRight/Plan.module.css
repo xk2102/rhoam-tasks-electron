@@ -1,0 +1,314 @@
+.plan {
+  /* DISPLAY */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* BORDER */
+  /* border: 2px solid; */
+}
+/* ------------------ */
+/* ----HEADER------------- */
+/* ------------------ */
+.plan > .planHeader {
+  /* BORDER */
+  /* border: 2px solid; */
+  /* SIZE */
+  width: 100%;
+  /* DISPLAY */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* FONTS */
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.plan > .planHeader > .image {
+  /* BORDER */
+  /* border: 2px solid; */
+  /* SIZE */
+  flex: 0.5;
+  /* DISPLAY */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.plan > .planHeader > .image > .color {
+  /* SIZE */
+  height: 35px;
+  width: 35px;
+  /* BORDER */
+  /* border: 2px solid; */
+  border-radius: 20px;
+}
+.plan > .planHeader > .label {
+  /* BORDER */
+  /* border: 2px solid; */
+  /* SIZE */
+  flex: 4;
+}
+.plan > .planHeader > .config {
+  /* BORDER */
+  /* border: 2px solid; */
+  /* SIZE */
+  flex: 1;
+  /* DISPLAY */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  /* POSITION */
+  position: relative;
+}
+.plan > .planHeader > .config > .reactIconContainer {
+  /* BORDER */
+  /* border: 2px solid; */
+  border-radius: 5px;
+  /* DISPLAY */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.plan > .planHeader > .config > .reactIconContainer:hover {
+  background-color: #1d2836;
+}
+
+.plan > .planHeader > .config > .configBox {
+  /* BORDER */
+  /* border: 2px solid; */
+  border-radius: 5px;
+  /* SIZE */
+  width: 225px;
+  height: auto;
+  /* POSITION */
+  position: absolute;
+  z-index: 1;
+  top: 50px;
+  /* left: -150px; */
+  /* COLORS */
+  background-color: #1d2836;
+  /* DISPLAY */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* MARGIN, PADDING */
+  padding: 10px;
+  /* FONTS */
+  font-size: 16px;
+}
+
+.plan > .planHeader > .config > .configBox > .colors {
+  /* BORDER */
+  /* border: 2px solid; */
+  border-radius: 5px;
+  /* DISPLAY */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  /* MARGIN, PADDING */
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+.plan > .planHeader > .config > .configBox > .colors > .color {
+  /* SIZE */
+  height: 20px;
+  width: 20px;
+  /* BORDER */
+  /* border: 2px solid; */
+  border-radius: 10px;
+  /* MARGIN, PADDING */
+  margin-right: 2px;
+  margin-bottom: 10px;
+  /* OTHER */
+  cursor: pointer;
+}
+.plan > .planHeader > .config > .configBox > .colors > .color.selected {
+  /* BORDER */
+  border: 2px solid;
+}
+
+.plan > .planHeader > .config > .configBox > #newPlanName {
+  /* MARGIN, PADDING */
+  margin-bottom: 10px;
+}
+
+.plan > .planHeader > .config > .configBox > input {
+  /* SIZE */
+  /* flex: 1; */
+  /* COLORS */
+  background-color: #0b0b11;
+  color: inherit;
+  /* FONTS */
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  /* BORDER */
+  border: 2px solid #15151b;
+  border-radius: 5px;
+  /* MARGIN, PADDING */
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.plan > .planHeader > .config > .configBox > button {
+  /* SIZE */
+  flex: 1;
+  /* MARGIN, PADDING */
+  padding: 10px;
+  margin: 2px;
+  /* COLORS */
+  background-color: #243244;
+  color: inherit;
+  /* BORDER */
+  border: 0px solid;
+  border-radius: 5px;
+  /* FONTS */
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 16px;
+  /* OTHER */
+  cursor: pointer;
+}
+
+.plan > .planHeader > .config > .configBox > button:hover {
+  /* COLORS */
+  background-color: #28384d;
+}
+.plan > .planHeader > .config > .configBox > button:active {
+  /* COLORS */
+  background-color: #2b3c53;
+}
+/* ------------------ */
+/* ----CONTENT------------- */
+/* ------------------ */
+
+.plan > .planContent {
+  /* BORDER */
+  /* border: 2px solid; */
+  /* SIZE */
+  width: 100%;
+  /* MARGIN, PADDING */
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.plan > .planContent > .task {
+  /* DISPLAY */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* MARGIN, PADDING */
+  padding: 5px;
+}
+.plan > .planContent > .task > .image {
+  /* SIZE */
+  flex: 0.5;
+  /* DISPLAY */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* FONTS */
+  font-size: 18px;
+}
+.plan > .planContent > .task > .description {
+  /* SIZE */
+  flex: 4;
+  /* FONTS */
+  font-size: 18px;
+}
+.plan > .planContent > .task > .delete {
+  /* BORDER */
+  /* border: 2px solid; */
+  /* SIZE */
+  flex: 1;
+  /* DISPLAY */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* ------------------ */
+/* ----FOOTER------------- */
+/* ------------------ */
+
+.plan > .planFooter {
+  /* BORDER */
+  /* border: 2px solid; */
+  /* SIZE */
+  width: 100%;
+  /* DISPLAY */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.plan > .planFooter > .image {
+  /* BORDER */
+  /* border: 2px solid; */
+  /* SIZE */
+  flex: 0.5;
+  /* DISPLAY */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* OTHER */
+  cursor: pointer;
+}
+
+.plan > .planFooter > .image > button {
+  /* BORDER */
+  border: 1px;
+  /* COLORS */
+  background-color: #0b0b11;
+  color: inherit;
+  /* FONTS */
+  font-size: 18px;
+  /* OTHER */
+  cursor: pointer;
+}
+
+.plan > .planFooter > .input {
+  /* BORDER */
+  /* border: 2px solid; */
+  /* SIZE */
+  flex: 4;
+  /* DISPLAY */
+  display: flex;
+}
+.plan > .planFooter > .input > input {
+  /* SIZE */
+  flex: 1;
+  /* COLORS */
+  background-color: #15151b;
+  color: inherit;
+  /* FONTS */
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  /* BORDER */
+  border: 0px;
+  border-radius: 5px;
+  /* MARGIN, PADDING */
+  padding: 10px;
+}
+.plan > .planFooter > .config {
+  /* BORDER */
+  /* border: 2px solid; */
+  /* SIZE */
+  flex: 1;
+  /* DISPLAY */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
