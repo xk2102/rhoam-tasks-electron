@@ -15,8 +15,8 @@
     "test": "jest"
   },
   "build": {
-    "productName": "ElectronReact",
-    "appId": "org.erb.ElectronReact",
+    "productName": "RhoamTasks",
+    "appId": "org.erb.RhoamTasks",
     "asar": true,
     "asarUnpack": "**\\*.{node,dll}",
     "files": [
@@ -84,8 +84,8 @@
   },
   "author": {
     "name": "Electron React Boilerplate Maintainers",
-    "email": "electronreactboilerplate@gmail.com",
-    "url": "https://electron-react-boilerplate.js.org"
+    "email": "christoskipouros@outlook.com",
+    "url": "https://www.christoskipouros.com"
   },
   "contributors": [
     {
